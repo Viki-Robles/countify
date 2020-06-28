@@ -1,6 +1,7 @@
 import React from "react";
-import getServicesCard from "./getServicesCard";
-import ServicesCard from "./ServicesCard";
+import getServicesCard from "../getServicesCard";
+import ServicesCard from "../ServicesCard/ServicesCard";
+import "./ServicesCards.css";
 
 export default function ServicesCardS() {
     return (

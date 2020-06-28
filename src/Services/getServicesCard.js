@@ -1,4 +1,4 @@
-import ServicesCard from "./ServicesCard";
+import ServicesCard from "./ServicesCard/ServicesCard";
 
 export default function getServicesCard() {
     return ([
