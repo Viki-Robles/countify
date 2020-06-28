@@ -7,9 +7,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 100px;
+    margin-left: 40px;
 }
 
 .servicesCards-header {
-    color: #767A7B;
+    color: #0C2D48;
     font-weight: bold;
+    margin-left: 40px;
 }
