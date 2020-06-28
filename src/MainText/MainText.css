@@ -1,13 +1,23 @@
 .mainText-container{
     margin-top: 80px;
-    background: url("/logistiko.jpg") no-repeat center center fixed;
+    background: url("/logistiko3.jpg") no-repeat center center fixed;
     background-size: cover;
     padding-top: 100px;
-    padding-bottom: 25%;
-
-
+    padding-bottom: 22%;
+    opacity: 0.7;
 }
 
 .mainText-title {
-    font-weight: 500;
+    font-weight: 700;
+    color: black;
+    margin-left: 20px;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.mainText-box {
+    background:hsla(0,0%,100%,.5);
+    width:50%;
+    margin: 20px;
+    padding: 20px;
 }

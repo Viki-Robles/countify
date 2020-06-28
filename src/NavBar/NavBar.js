@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./NavBar.css";
 import { Link } from "react-scroll";
 import { FaAlignJustify } from "react-icons/fa";
-
+import logo from "../NavBar/images/logo.png";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,6 +17,7 @@ export default function NavBar() {
         offset={0}
         duration={500}
       >
+        <img src={logo}/>
       </Link>
       <NavBarButton onButtonSwitched={() => setIsOpen(!isOpen)} />
       <NavBarBox isOpen={isOpen} closeMenu={() => setIsOpen(false)} />

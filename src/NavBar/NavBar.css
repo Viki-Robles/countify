@@ -79,6 +79,14 @@
     .NavBar {
       height: 90px;
     }
+    .NavBar-logo {
+      position: relative;
+    }
+    .NavBar-logo img {
+    width: 50px;
+    left: 10px;
+    top: 3px;
+    }
     .NavBar-box.is-open {
       margin-top: 0px;
       width: 100%;
@@ -97,13 +105,12 @@
     }
     .NavBar-box-link {
       float: right;
-      width: 80px;
-      color: #6374c3;
+      width: 100px;
+      color: #767A7B;
       margin-top: 30px;
-      margin-left: 15px;
-      margin-right: 50px;
+      margin-right: 80px;
       font-weight: 600;
-      font-size: 20px;
+      font-size: 25px;
       background-color: transparent;
       padding: 0;
       border-top: none;
@@ -114,9 +121,5 @@
       flex-direction: row;
       background-color: white;
     }
-    .NavBar-logo img {
-      width: 190px;
-      left: 10px;
-      top: 3px;
-    }
+   
   }
