@@ -1,0 +1,13 @@
+.mainText-container{
+    margin-top: 80px;
+    background: url("/logistiko.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 25%;
+
+
+}
+
+.mainText-title {
+    font-weight: 500;
+}

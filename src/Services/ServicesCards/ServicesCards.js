@@ -9,13 +9,14 @@ export default function ServicesCardS() {
             <h2 className="servicesCards-header">Υπηρεσίες</h2>
             <div className="servicesCards">
                 {
-                    getServicesCard().map(({ title, details, id, picture }) => (
+                    getServicesCard().map(({ title, details, id, picture, icon }) => (
                         <ServicesCard
                             key={id}
                             id={id}
                             title={title}
                             details={details}
                             picture={picture}
+                            icon={icon}
                         />
                     ))
                 }

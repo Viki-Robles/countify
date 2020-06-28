@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
-import NavBar from "./NavBar/NavBar";
-import ServicesCards from "./Services/ServicesCards/ServicesCards";
+import Page from "./Page/Page";
+
+
 
 function App() {
   return (
     <div className="App">
       <header>Countify</header>
-      <NavBar />
-      <br />
-      <ServicesCards />
+      <Page />
     </div>
   );
 }

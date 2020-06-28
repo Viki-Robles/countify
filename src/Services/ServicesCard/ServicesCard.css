@@ -1,6 +1,18 @@
 .servicesCard-container {
-    border:2px solid black;
+    border:2px solid #6374c3;
     padding: 10px;
     margin: 10px;
     box-sizing: border-box;
+    border-radius: 6px;
+    width:50%;
+    height:150%;
+    box-shadow: 5px 7px 10px 0 #6374c3;
+}
+
+.servicesCard-title {
+   text-align: center;
+}
+
+.servicesCard-title {
+    color:black;
 }
