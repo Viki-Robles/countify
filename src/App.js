@@ -7,9 +7,9 @@ function App() {
   return (
     <div className="App">
       <header>Countify</header>
-      <NavBar/>
-      <br/>
-      <ServicesCards/>
+      <NavBar />
+      <br />
+      <ServicesCards />
     </div>
   );
 }
