@@ -7,10 +7,36 @@
 }
 
 .main-container {
+    background-color: #919499;
+    padding-bottom: 200px;
+    margin-top: 10%;
+}
+
+.main-container h2 {
+    font-size: 20px;
+}
+.main-container span:nth-child(1) {
+    color: red;
+    margin-left: 8px;
+    font-size: 30px;
+}
+
+
+@media(min-width:600) {
+.main-container h2 {
+    font-size: 40px;
+}
+
+.main-container {
     background-color: #AFB8C5;
     padding-bottom: 200px;
     margin-top: 10%;
-    padding-top: 1px;
-
+    padding-top: 5%;
 }
 
+.main-container span:nth-child(1) {
+    color: red;
+    margin-left: 8px;
+    font-size: 40px;
+}
+}

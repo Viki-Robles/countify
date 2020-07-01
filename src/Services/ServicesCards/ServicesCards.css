@@ -1,17 +1,25 @@
-.servicesCards-header{
-    margin-top: 10%;
-    font-weight: 500;
+.servicesCards-header {
+  margin-top: 20%;
+  font-weight: 500;
 }
 
 .servicesCards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 100px;
-    margin-left: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5px;
+  grid-gap: 5px;
 }
 
 .servicesCards-header {
-    color: #0C2D48;
-    font-weight: bold;
-    margin-left: 40px;
+  color: #0c2d48;
+  font-weight: bold;
+}
+
+@media (min-width: 600px) {
+  .servicesCards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5px;
+    grid-gap: 100px;
+  }
 }

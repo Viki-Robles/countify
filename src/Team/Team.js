@@ -7,8 +7,9 @@ export default function Team() {
         <div className="team">
             <div className="team-container">
                 <h2 className="team-title">Η ομάδα</h2>
-                <h3>Αδαμάντιος Βασιλόπουλος</h3>
                 <img src={teampicture} className="team-picture" />
+                <h3>CEO</h3>
+                <h3>Αδαμάντιος Βασιλόπουλος</h3>
             </div>
         </div>
     );

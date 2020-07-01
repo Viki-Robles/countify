@@ -1,11 +1,9 @@
 .servicesCard-container {
     border:2px solid #AFB8C5;
     padding: 10px;
-    margin: 10px;
     box-sizing: border-box;
     border-radius: 6px;
-    width:50%;
-    height:150%;
+    width:100%;
     box-shadow: 5px 7px 10px 0 #AFB8C5;
 }
 
@@ -14,5 +12,13 @@
 }
 
 .servicesCard-title {
-    color:#0C2D48;
+    color:#6f7174;
+}
+
+@media(min-width:600px) {
+    .servicesCard-container {
+        width: 50%;
+        height:150%;
+        margin: 20px;
+    }
 }
