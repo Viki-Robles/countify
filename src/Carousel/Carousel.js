@@ -8,6 +8,7 @@ import accounting from "./images/accounting.png";
 import development from "./images/development.png";
 import consulting from "./images/consulting.png";
 import taxes from "./images/taxes.png";
+import hotel from "./images/hotel.png";
 
 const photos = [
     {
@@ -38,7 +39,7 @@ const photos = [
     {
         name: 'photo3',
         services: 'Ξενοδοχειακές',
-        url: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.e-analysis.gr%2F%25CE%25B5%25CF%2580%25CE%25B9%25CF%2587%25CE%25B5%25CE%25B9%25CF%2581%25CE%25AE%25CF%2583%25CE%25B5%25CE%25B9%25CF%2582%2F%25CE%25BB%25CE%25BF%25CE%25B3%25CE%25B9%25CF%2583%25CF%2584%25CE%25B9%25CE%25BA%25CE%25AE%2F&psig=AOvVaw0MAALHeM5P4O9a6fY2_itU&ust=1593855544134000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIDh-ODksOoCFQAAAAAdAAAAABAD'
+        url: hotel
     }
 ]
 
@@ -63,7 +64,7 @@ export default class Carousel extends Component {
 
                         <div className="carousel-container">
                             <div className="carousel-container-items">
-                                <h4>{photo.services}</h4>
+                                <h4 className="carousel-container-title">{photo.services}</h4>
                                 <img width="20%" src={photo.url} />
                                 <button>Περισσότερα</button>
                             </div>
