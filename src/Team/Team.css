@@ -1,7 +1,6 @@
 .team {
     display: grid;
     grid-gap: 0px;
-    grid-template-columns: 1fr 1fr;
     text-align: center;
     background-color: #ededed;
     margin-top: 10%;
@@ -47,6 +46,9 @@
 
     .team {
         text-align: left;
+        display: grid;
+        grid-gap: 0px;
+        grid-template-columns: 1fr 1fr;
        
     }
 }
