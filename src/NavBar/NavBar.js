@@ -45,27 +45,27 @@ function NavBarBox(props) {
           offset={0}
           duration={500}
         >
-          <div onClick={props.closeMenu}>Αρχική</div>
+          <div onClick={props.closeMenu}>ΑΡΧΙΚΗ</div>
         </Link>
         <Link
           className="NavBar-box-link"
-          to="Team"
+          to="team"
           spy={true}
           smooth={true}
           offset={0}
           duration={500}
         >
-          <div onClick={props.closeMenu}>Υπηρεσίες</div>
+          <div onClick={props.closeMenu}>ΥΠΗΡΕΣΙΕΣ</div>
         </Link>
         <Link
           className="NavBar-box-link"
-          to="Team"
+          to="Services"
           spy={true}
           smooth={true}
           offset={0}
           duration={500}
         >
-          <div onClick={props.closeMenu}>Η ομάδα</div>
+          <div onClick={props.closeMenu}>Η ΟΜΑΔΑ</div>
         </Link>
       </div>
     </div>

@@ -1,18 +1,19 @@
 .servicesCards-header {
-  margin-top: 20%;
+  margin-top: 10%;
   font-weight: 500;
 }
 
 .servicesCards {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: 5px;
-  grid-gap: 5px;
+  grid-gap: 45px;
 }
 
 .servicesCards-header {
   color: #0c2d48;
   font-weight: bold;
+  margin-left: 20px;
 }
 
 @media (min-width: 600px) {
