@@ -1,0 +1,21 @@
+.carousel-container {
+    justify-content: center;
+}
+
+.carousel-container h4 {
+    text-align: center;
+}
+
+.carousel-container img {
+    margin-left: 40%;
+}
+.carousel-container-items {
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid #ededed;
+    text-align: center;
+    margin-top: 10%;
+}
+.slick-list {
+    background-color: #f7f7f7;
+}
