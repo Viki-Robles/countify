@@ -6,7 +6,7 @@ import "./ServicesCards.css";
 export default function ServicesCardS() {
     return (
         <>
-            <h2 className="servicesCards-header">Υπηρεσίες</h2>
+            <h2 className="servicesCards-header">Υπηρεσίες<span>.</span></h2>
             <div className="servicesCards">
                 {
                     getServicesCard().map(({ title, details, id, picture, icon }) => (

@@ -23,7 +23,7 @@
   
   .NavBar-hamburguer {
     font-size: 35px;
-    color: #919499;
+    color: #0088cc;
   }
   
   .NavBar-box {
@@ -42,12 +42,12 @@
   .NavBar-box-link {
     font-size: 20px;
     display: block;
-    color: #919499;
+    color: #0088cc;
     font-weight: 600;
     background-color: white;
     padding: 40px 20px;
     height: 80%;
-    border-top: 1px solid #919499;
+    border-top: 1px solid #0088cc;
   }
   
   .NavBar-box-link:hover {
@@ -106,8 +106,6 @@
     }
     .NavBar-box-link {
       float: right;
-      width: 100px;
-      color: #919499;
       margin-top: 30px;
       margin-right: 80px;
       font-weight: 600;

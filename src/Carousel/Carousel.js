@@ -51,22 +51,28 @@ export default class Carousel extends Component {
             speed: 500,
             slidesToShow: 3,
             arrows: true,
-            slidesToScroll: 3,
+            slidesToScroll: 1,
             className: "slides"
         }
         return (
-                <Slider {...settings}>
-                    {photos.map((photo) => {
-                        return (
-                            <div className="carousel-container">
-                                <div className="carousel-container-items">
-                                    <h4>{photo.services}</h4>
-                                    <img width="20%" src={photo.url} />
-                                </div>
+            <>
+            <h4 className="carousel-header">Τι Υπηρεσίες Προσφέρουμε;</h4>
+            <Slider {...settings}>
+                {photos.map((photo) => {
+                    return (
+
+                        <div className="carousel-container">
+                            <div className="carousel-container-items">
+                                <h4>{photo.services}</h4>
+                                <img width="20%" src={photo.url} />
+                                <button>Περισσότερα</button>
                             </div>
-                        )
-                    })}
-                </Slider>
+                        </div>
+                    )
+                })}
+            </Slider>
+            </>
+
         );
     }
 }
