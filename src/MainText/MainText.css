@@ -8,7 +8,7 @@
 }
 
 .mainText-box {
-    background:hsla(0,0%,100%,.5);
+    background:rgba(105, 165, 214, 0.5);
     width:90%;
     margin: 10px;
     padding: 0px;
@@ -41,7 +41,6 @@
 }
 
 .mainText-box {
-    background:hsla(0,0%,100%,.5);
     width:50%;
     margin: 20px;
     padding: 20px;

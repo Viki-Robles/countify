@@ -1,82 +1,69 @@
-
 .carousel-container {
-    justify-content: center;
+  justify-content: center;
 }
 
 .carousel-container h4 {
-    text-align: center;
-    color:#0088cc;
+  text-align: center;
+  color: #0088cc;
 }
 
 .carousel-container img {
-    margin-left: 40%;
-    border: 1px solid white;
-    background-color: white;
-    border-radius: 4px;
+  margin-left: 40%;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 4px;
 }
 .carousel-container-items {
-    background-color: #ededed;
-    box-sizing: border-box;
-    text-align: center;
-    width: 100%;
+  background-color: #ededed;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
 }
 .slick-list {
-    background-color: #ededed;
+  background-color: #ededed;
 }
-
 
 .slick-next::before {
-    font-size: 60px;
-    margin-left: -40vh;
-}
-
-.slick-prev::before {
-    margin-left: 40vh;
+  font-size: 40px;
+  margin-left: -150px;
 }
 
 .carousel-container-items button {
-    padding: 5px 10px;
-    background-color: white;
-    font-size: 15px;
-    font-weight: 400;
-    border-color: #0088cc;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color:#0088cc;
-    box-shadow: 5px 7px 10px 0 #AFB8C5;
+  padding: 5px 10px;
+  background-color: white;
+  font-size: 15px;
+  font-weight: 400;
+  border-color: #0088cc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #0088cc;
+  box-shadow: 5px 7px 10px 0 #afb8c5;
 }
 
 .carousel-header {
-    text-align: center;
-    color:#0088cc;
-    font-size: 22px;
+  text-align: center;
+  color: #0088cc;
+  font-size: 22px;
 }
 
-.carousel-container-title{
-    font-size: 18px;
-
+.carousel-container-title {
+  font-size: 18px;
 }
 
-.slick-dots li {
-    width: 20px;
+@media (min-width: 600px) {
+  .carousel-header {
     font-size: 40px;
-    
-}
+  }
+  .carousel-container-title {
+    font-size: 22px;
+  }
 
-.slick-prev {
-    width: 200px;
-}
+  .slick-next {
+    width: 500px;
+  }
 
-@media(min-width: 600px) {
-    .carousel-header {
-        font-size: 40px;
-    }
-    .carousel-container-title {
-        font-size: 22px;
-    }
-
-    .slick-next {
-        width: 500px;
-    }
-
+  .slick-next::before {
+    font-size: 60px;
+    margin-left: -40vh;
+  }
 }
