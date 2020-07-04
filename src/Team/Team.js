@@ -5,7 +5,7 @@ import "./Team.css";
 export default function Team() {
     return (
         <>
-            <div className="team">
+            <div className="team" id="Team">
                 <div className="team-container-picture">
                     <h2 className="team-title">Η ομάδα<span>.</span></h2>
                     <img src={teampicture} className="team-picture" />

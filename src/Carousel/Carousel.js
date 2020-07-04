@@ -47,12 +47,13 @@ const photos = [
 export default class Carousel extends Component {
     render() {
         const settings = {
+            infinite: true,
             dots: true,
             fade: true,
             speed: 500,
             slidesToShow: 3,
             arrows: true,
-            slidesToScroll: 1,
+            slidesToScroll: 3,
             className: "slides"
         }
         return (
@@ -62,7 +63,7 @@ export default class Carousel extends Component {
                 {photos.map((photo) => {
                     return (
 
-                        <div className="carousel-container">
+                        <div className="carousel-container" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
                             <div className="carousel-container-items">
                                 <h4 className="carousel-container-title">{photo.services}</h4>
                                 <img width="20%" src={photo.url} />

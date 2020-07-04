@@ -49,7 +49,7 @@ function NavBarBox(props) {
         </Link>
         <Link
           className="NavBar-box-link"
-          to="team"
+          to="Services"
           spy={true}
           smooth={true}
           offset={0}
@@ -59,7 +59,7 @@ function NavBarBox(props) {
         </Link>
         <Link
           className="NavBar-box-link"
-          to="Services"
+          to="Team"
           spy={true}
           smooth={true}
           offset={0}

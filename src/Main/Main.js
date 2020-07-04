@@ -3,7 +3,7 @@ import "./Main.css";
 
 export default function Main() {
     return (
-            <div className="main-container">
+            <div className="main-container" id="Services">
                 <h2>Σχετικά με εμάς<span>.</span></h2>
                 <div className="main-container-text">
                 Παρέχουμε διαρκή ενημέρωση για όλες τις μεταβαλλόμενες Λογιστικές, 

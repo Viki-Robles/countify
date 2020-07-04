@@ -1,3 +1,4 @@
+
 .carousel-container {
     justify-content: center;
 }
@@ -21,24 +22,16 @@
 }
 .slick-list {
     background-color: #ededed;
-    margin-top: 10%;
 }
 
-.slick-prev, .slick-next {
-    font-size: 0;
-    line-height: 0;
-    position: absolute;
-    top: 50%;
-    display: block;
-    width: 200px;
-    height: 20px;
-    padding: 0;
-    transform: translate(0, -50%);
-    cursor: pointer;
-    color: transparent;
-    border: none;
-    outline: none;
-    background: transparent;
+
+.slick-next::before {
+    font-size: 60px;
+    margin-left: -40vh;
+}
+
+.slick-prev::before {
+    margin-left: 40vh;
 }
 
 .carousel-container-items button {
@@ -64,8 +57,14 @@
 
 }
 
-.slick-dots li button {
-    width: 40px;
+.slick-dots li {
+    width: 20px;
+    font-size: 40px;
+    
+}
+
+.slick-prev {
+    width: 200px;
 }
 
 @media(min-width: 600px) {
@@ -75,4 +74,9 @@
     .carousel-container-title {
         font-size: 22px;
     }
+
+    .slick-next {
+        width: 500px;
+    }
+
 }
