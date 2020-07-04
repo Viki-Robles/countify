@@ -8,7 +8,7 @@ import { useEffect } from "react";
 
 export default function ServicesCardS() {
     useEffect(() => {
-        AOS.init({ duration: 3000, delay: 450 });
+        AOS.init({ duration: 2000, delay: 450 });
       }, []);
     return (
         <>

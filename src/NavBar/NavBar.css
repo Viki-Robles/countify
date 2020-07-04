@@ -65,15 +65,19 @@
     font-size: 20px;
   }
   
-  .NavBar-logo {
-    position: relative;
-  }
-  
-  .NavBar-logo img {
-    position: absolute;
-    left: 480px;
-    width: 60px;
+  .NavBar-logo img{
     display: none;
+  }
+
+  .NavBar-logo-menu {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+  }
+
+  .NavBar-contact-details {
+    display: none;
+
   }
   
   @media (min-width: 744px) {
@@ -115,10 +119,19 @@
       border-top: none;
   
     }
-    .NavBar-logo-menu {
-      display: flex;
-      flex-direction: row;
-      background-color: white;
+    
+    .NavBar-contact-details {
+      display: grid;
+      position: absolute;
+      left:0;
+      margin: 10px;
     }
-   
+    .NavBar-contact-details img {
+      width: 40px;
+    }
+  
+    .NavBar-contact-number {
+      color: #0088cc;
+      padding: 10px 10px 10px 0;
+    } 
   }

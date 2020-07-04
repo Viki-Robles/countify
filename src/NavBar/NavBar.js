@@ -3,6 +3,7 @@ import "./NavBar.css";
 import { Link } from "react-scroll";
 import { FaAlignJustify } from "react-icons/fa";
 import logo from "../NavBar/images/logo.png";
+import email from "../NavBar/images/email.png";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -77,6 +78,12 @@ function NavBarBox(props) {
         >
           <div onClick={props.closeMenu}>ΕΠΙΚΟΙΝΩΝΙΑ</div>
         </Link>
+        <div className="NavBar-contact-details">
+        <a href="mailto:adamas@otenet.com">
+        <img src={email} alt=""/>
+        </a>
+        <div className="NavBar-contact-number">Tηλ.: 210 - 4613 385</div>
+        </div>
       </div>
     </div>
   );
