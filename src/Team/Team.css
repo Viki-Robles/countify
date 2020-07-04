@@ -36,6 +36,12 @@
 
 .team-details-text {
     text-align: left;
+    margin-top:20px;
+}
+
+.team h3 {
+    color:#646464;
+    font-weight: 400;
 }
 @media(min-width: 600px) {
     .team-container-picture img {

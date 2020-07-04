@@ -9,6 +9,7 @@ import development from "./images/development.png";
 import consulting from "./images/consulting.png";
 import taxes from "./images/taxes.png";
 import hotel from "./images/hotel.png";
+import ButtonDown from "../Buttons/ButtonDown";
 
 const photos = [
     {
@@ -66,8 +67,8 @@ export default class Carousel extends Component {
                         <div className="carousel-container" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
                             <div className="carousel-container-items">
                                 <h4 className="carousel-container-title">{photo.services}</h4>
-                                <img width="20%" src={photo.url} />
-                                <button>Περισσότερα</button>
+                                <img width="20%" src={photo.url} alt=""/>
+                                <ButtonDown/>
                             </div>
                         </div>
                     )

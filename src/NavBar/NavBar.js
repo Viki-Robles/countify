@@ -17,7 +17,7 @@ export default function NavBar() {
         offset={0}
         duration={500}
       >
-        <img src={logo}/>
+        <img src={logo} alt=""/>
       </Link>
       <NavBarButton onButtonSwitched={() => setIsOpen(!isOpen)} />
       <NavBarBox isOpen={isOpen} closeMenu={() => setIsOpen(false)} />
@@ -66,6 +66,16 @@ function NavBarBox(props) {
           duration={500}
         >
           <div onClick={props.closeMenu}>Η ΟΜΑΔΑ</div>
+        </Link>
+        <Link
+          className="NavBar-box-link"
+          to="Contact"
+          spy={true}
+          smooth={true}
+          offset={0}
+          duration={500}
+        >
+          <div onClick={props.closeMenu}>ΕΠΙΚΟΙΝΩΝΙΑ</div>
         </Link>
       </div>
     </div>
