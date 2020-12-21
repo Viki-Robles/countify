@@ -46,7 +46,7 @@ function NavBarBox(props) {
           offset={0}
           duration={500}
         >
-          <div onClick={props.closeMenu}>ΑΡΧΙΚΗ</div>
+          <div onClick={props.closeMenu}>Αρχική</div>
         </Link>
         <Link
           className="NavBar-box-link"
@@ -56,7 +56,7 @@ function NavBarBox(props) {
           offset={0}
           duration={500}
         >
-          <div onClick={props.closeMenu}>ΥΠΗΡΕΣΙΕΣ</div>
+          <div onClick={props.closeMenu}>Υπηρεσίες</div>
         </Link>
         <Link
           className="NavBar-box-link"
@@ -66,7 +66,7 @@ function NavBarBox(props) {
           offset={0}
           duration={500}
         >
-          <div onClick={props.closeMenu}>Η ΟΜΑΔΑ</div>
+          <div onClick={props.closeMenu}>Η Ομάδα</div>
         </Link>
         <Link
           className="NavBar-box-link"
@@ -76,7 +76,7 @@ function NavBarBox(props) {
           offset={0}
           duration={500}
         >
-          <div onClick={props.closeMenu}>ΕΠΙΚΟΙΝΩΝΙΑ</div>
+          <div onClick={props.closeMenu}>Επικοινωνία</div>
         </Link>
         <div className="NavBar-contact-details">
         <a href="mailto:adamas@otenet.com">
